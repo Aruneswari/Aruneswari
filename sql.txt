@@ -1,0 +1,2 @@
+create table CustomerMaster (CustomerID INT NOT NULL ,CustomerName varchar(250),Phone varchar(250),
+DateOfBirth Date, Address  NVARCHAR (250),InsertedTime DATETIME NULL DEFAULT NULL,PRIMARY KEY (CustomerID));
